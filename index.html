@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Source+Code+Pro&display=swap" rel="stylesheet">
@@ -15,12 +12,16 @@
     <title>Arindam Bharati</title> 
 </head>
 <body>
-    <nav class="flex justify-center p-14 position-relative z-index font-family-monst font-bold" style="max-width: 100%">
-        <a href="" class="white-text m-5 p-2-10 no-underline font-size-18 uppercase">Home</a>
-        <a href="" class="white-text m-5 p-2-10 no-underline font-size-18 uppercase">Projects</a>
-        <a href="" class="white-text m-5 p-2-10 no-underline font-size-18 uppercase">About Me</a>
-        <a href="" class="white-text m-5 p-2-10 no-underline font-size-18 uppercase">Resume</a>
-    </nav>
+    <header>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#" class="nav_list_link">Home</a></li>
+                <li class="nav_item"><a href="#" class="nav_list_link">Projects</a></li>
+                <li class="nav_item"><a href="#" class="nav_list_link">About Me</a></li>
+                <li class="nav_item"><a href="#" class="nav_list_link">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <section>
         <video loop="loop"
@@ -32,10 +33,14 @@
         >
         </video>
 
-        <div class="position-relative z-index container" style="margin: 0 auto; top:230px" >
-                <h1 class=" white-text font-size-32 font-family-Source" >
-                    console.log("Hi,I'm Arindam Bharati");
-                </h1>
+        <div class="container">
+                <div class="main_intro">
+                    <h1 class="text_big">console.log("Hi,I'm Arindam Bharati");</h1>
+                </div>
+                
+                <div class="sub_intro">
+                    <h3 class="text_sub">Web Developer<span>|</span>Game Developer <span>|</span>Music Producer </h3>
+                </div>
         </div>
     </section>
 </body>
