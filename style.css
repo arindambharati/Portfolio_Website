@@ -27,7 +27,7 @@ h1{
 .container{
     position: relative;
     width: 100%;
-    max-width: 712px;
+    max-width: 913px;
     margin: 0 auto; 
     top:300px;
     
@@ -39,7 +39,7 @@ h1{
 
 .text_big{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 
