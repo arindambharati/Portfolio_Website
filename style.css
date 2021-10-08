@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     margin: 0;
     padding: 0;
@@ -20,7 +21,7 @@ h1{
     width: 100%;
     object-fit: cover;
     overflow: hidden;
-    z-index: -1;
+    z-index: -100;
 }
 
 .container{
@@ -28,7 +29,7 @@ h1{
     width: 100%;
     max-width: 712px;
     margin: 0 auto; 
-    top:240px;
+    top:300px;
     
 }
 
@@ -43,16 +44,20 @@ h1{
 }
 
 .text_sub{
-    color: rgb(212, 232, 250);
+    color: rgb(231, 243, 253);
     font-size: 16px;
 }
 
 .nav{
     font-size: 18px;
+    position: fixed;
+    width: 100%;
 }
+
 .nav_list{
     display: flex;
     justify-content: center;
+   
 }
 
 .nav_item{
@@ -77,4 +82,22 @@ span{
 .sub_intro{
     width: 100%;
     text-align: center;
+}
+
+.section_1{
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.section_2{
+    position: relative; 
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    background: #000;
 }
