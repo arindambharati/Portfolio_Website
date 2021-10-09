@@ -29,8 +29,23 @@ h1{
     width: 100%;
     max-width: 913px;
     margin: 0 auto; 
-    top:300px;
-    
+    top:300px;   
+}
+
+.flex{
+    display: flex;
+}
+
+.main_mid_container{
+    /* border: 2px solid red; */
+    padding: 0 5rem;
+    margin: 14rem auto;
+}
+
+.mid_container{
+    /* border: 2px solid red; */
+    width: 80%;
+    max-width: 1100px;
 }
 
 .main_intro{
@@ -100,4 +115,32 @@ span{
     object-fit: cover;
     overflow: hidden;
     background: #000;
+}
+
+
+.content{
+    border: 5px solid rgb(211, 1, 36);
+    border-radius: 20px;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+}
+
+.content_text_big{
+    text-align: center;
+}
+
+.content_text_small{
+    text-align: center;
+}
+
+.img_div{
+    width: 38%;
+    text-align: center;
+    align-self: center;
+}
+
+.image_me{
+    width: 40%;
+    border-radius: 10%;
 }
